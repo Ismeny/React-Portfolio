@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
    
     <div className="sidenav">
     <div>
-       <img src='https://images.unsplash.com/photo-1561047725-c5808d089cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80' alt ='profile pic' class='portfolio-image'></img>
+       <img src='https://images.unsplash.com/photo-1561047725-c5808d089cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80' alt ='profile pic' className='portfolio-image'></img>
     </div>
         <a
           href="#about"

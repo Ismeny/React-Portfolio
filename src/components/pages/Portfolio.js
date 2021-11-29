@@ -1,7 +1,10 @@
 import React from 'react';
 import './Portfolio.css'
+
 export default function Portfolio() {
   return (
+    <>
+
     <div className='portfolio'>
       <h1>Portfolio</h1>
       <p className='portfolio-font'>
@@ -20,5 +23,7 @@ export default function Portfolio() {
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
     </div>
+   
+  </>
   );
 }
