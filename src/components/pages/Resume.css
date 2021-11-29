@@ -1,0 +1,21 @@
+.resume{
+    padding-top: 15%;
+    padding-left: 80px;
+    padding-right: 200px;
+    background-color:#151C47;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Covered By Your Grace', cursive;
+
+}
+
+h1 {
+    font-family: 'Quando', serif;
+    color: #DDCDC6;
+}
+
+.resume-font {
+    font-size: 18px;
+    color: white;
+}
+

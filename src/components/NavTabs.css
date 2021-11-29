@@ -1,0 +1,50 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #151C47;; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    list-style-type: none;
+    font-family: 'Quando', serif;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 20px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #DDCDC6;
+    display: block;
+  
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  .portfolio-image {
+    width: 80%;
+    height: 30%;
+    border-radius: 50%;
+    padding-left: 16px;
+    margin-bottom: 40%;
+  }
+
+ .logo {
+   width: 80%;
+   height: 30%;
+   padding-left: 16px;
+   margin-top: 85%;
+ }

@@ -1,0 +1,14 @@
+.contact {
+    padding-top: 20%;
+    padding-left: 80px;
+    padding-right: 200px;
+    background-color:#151C47;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.contact-font {
+    font-size: 18px;
+    color: white;
+}
