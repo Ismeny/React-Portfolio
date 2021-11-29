@@ -9,7 +9,7 @@ export default function About() {
     <div className='about'>
       <h1>About Me</h1>
       <p className='about-font'>
-      I'm currently a full time student in Coding Bootcamp at the University of Texas at Austin. My expected graduation date is December 7th, 2021. I'm new to the tech field and excited to learn more about web development and pursue a career as a full stack web developer.
+      Hello! My name is Ismeny Castro, I live in Austin, Texas. I'm currently a full time student in Coding Bootcamp at the University of Texas at Austin. My expected graduation date is December 7th, 2021. I'm new to the tech field and excited to learn more about web development and pursue a career as a full stack web developer.
       </p>
       <br></br>
       <div id='skills'>
