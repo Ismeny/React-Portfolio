@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavTabs.css';
-import logo from '../images/nav-logo.png';
+import portfolioPic from '../images/portfolio-pic.jpeg';
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 
@@ -12,8 +12,8 @@ function NavTabs({ currentPage, handlePageChange }) {
    
     <div className="sidenav">
     <div>
-       <img src='https://images.unsplash.com/photo-1561047725-c5808d089cc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80' alt ='profile pic' className='portfolio-image'></img>
-    </div>
+        <img className='profile-pic' src={portfolioPic} alt='profile pic' ></img>
+      </div>
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -47,9 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      <div className='logo'>
-        <img src={logo} alt='logo'></img>
-      </div>
+  
     </div>
     </>
   );
