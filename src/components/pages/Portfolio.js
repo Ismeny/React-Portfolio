@@ -24,7 +24,7 @@ export default function Portfolio() {
                 <h4>COMING SOON</h4>
                 <p>MERN Stack</p>
                 <br></br>
-            <a href='#' className="linkedin" target="_blank" rel="noreferrer">Click to view</a>
+            <a href='#'  target="_blank"rel="noreferrer" >Click to view</a>
             </div>
         </div>
     </div>
