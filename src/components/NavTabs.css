@@ -11,6 +11,7 @@
     padding-top: 20px;
     list-style-type: none;
     font-family: 'Playfair Display', serif;
+    position: fixed;
   }
   
   /* The navigation menu links */
