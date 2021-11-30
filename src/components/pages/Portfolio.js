@@ -28,9 +28,9 @@ export default function Portfolio() {
             </div>
         </div>
     </div>
-   
-   
-   
+    <footer>
+      <h5 class='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
+    </footer>
   </>
   );
 }

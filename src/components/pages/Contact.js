@@ -3,6 +3,7 @@ import './Contact.css'
 
 export default function Contact() {
   return (
+    <>
     <div className='contact'>
       <h1>Contact Page</h1>
     <p className='contact-font'>
@@ -18,5 +19,9 @@ export default function Contact() {
     </div>
   
     </div>
+    <footer>
+    <h5 class='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
+  </footer>
+  </>
   );
 }

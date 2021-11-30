@@ -19,3 +19,13 @@ h1 {
     color: white;
 }
 
+footer {
+    background-color:#151C47;
+    color: #DDCDC6;
+    width: 100vw;
+    padding-bottom: 5px;
+}
+
+.center-text {
+    text-align: center;
+}
