@@ -1,7 +1,7 @@
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 165px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -10,7 +10,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     list-style-type: none;
-    font-family: 'Quando', serif;
+    font-family: 'Playfair Display', serif;
   }
   
   /* The navigation menu links */
@@ -25,9 +25,22 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color:  purple;
+    
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
   }
   
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
   /* Style page content */
   .main {
     margin-left: 160px; /* Same as the width of the sidebar */
@@ -44,3 +57,13 @@
    margin-bottom: 20px;
    
  }
+
+.logo {
+  margin-top: 180px;
+  border-radius: 50%;
+   height: 140px;
+   width: 150px;
+   margin-left: 5px;
+   
+   
+}

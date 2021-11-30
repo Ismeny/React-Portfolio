@@ -5,7 +5,7 @@
     background-color:#151C47;
     height: 100vh;
     width: 100vw;
-    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .contact-font {
@@ -46,3 +46,18 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}

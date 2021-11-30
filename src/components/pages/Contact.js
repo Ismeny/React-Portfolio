@@ -5,29 +5,18 @@ export default function Contact() {
   return (
     <div className='contact'>
       <h1>Contact Page</h1>
-    <div className="container">
-    <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-    <input type="submit" value="Submit"></input>
-
-  </form>
-  </div>
+    <p className='contact-font'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </p>
+    <div>
+    <ul className='flex-container'>
+            <li><a href='https://www.linkedin.com/in/ismeny-saguilan-b8b32821b/' className="linkedin" target="_blank">LinkedIn</a></li>
+            <li><a href='https://github.com/Ismeny' className="github" target="_blank">Github</a></li>
+            <li><a href='https://twitter.com/IsmenySaguilan' className="twitter" target="_blank">Twitter</a></li>
+            <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
+        </ul>
+    </div>
+  
     </div>
   );
 }

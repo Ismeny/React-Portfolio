@@ -7,22 +7,29 @@ export default function Portfolio() {
 
     <div className='portfolio'>
       <h1>Portfolio</h1>
-      <p className='portfolio-font'>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div className='flex-container'>
+            <div className="card">  
+            <h4>Crypto Cosmos</h4>
+            <p>HTML, CSS, JavaScript</p>
+            <br></br>
+            <a href='https://cole-cochran.github.io/crypto-cosmos/' className="crypto-cosmos" target="_blank" rel="noreferrer">Click to view</a>
+            </div>
+            <div className="card">
+                <h4>Script Doctors</h4>
+                <p>HTML, CSS, JavaScript, <br></br>Express, Node.js, Sequelize</p>
+                <br></br>
+            <a href='https://project2-group8.herokuapp.com/login' className="script-doctors" target="_blank" rel="noreferrer">Click to view</a>
+            </div>
+            <div className="card">
+                <h4>COMING SOON</h4>
+                <p>MERN Stack</p>
+                <br></br>
+            <a href='#' className="linkedin" target="_blank" rel="noreferrer">Click to view</a>
+            </div>
+        </div>
     </div>
+   
+   
    
   </>
   );
