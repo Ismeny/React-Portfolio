@@ -11,9 +11,9 @@ export default function Contact() {
     </p>
     <div>
     <ul className='flex-container'>
-            <li><a href='https://www.linkedin.com/in/ismeny-saguilan-b8b32821b/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href='https://www.linkedin.com/in/ismeny-castro-b8b32821b/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
             <li><a href='https://github.com/Ismeny' className="github" target="_blank" rel="noreferrer">Github</a></li>
-            <li><a href='https://twitter.com/IsmenySaguilan' className="twitter" target="_blank" rel="noreferrer">Twitter</a></li>
+            <li><a href='https://twitter.com/IsmenyCastro' className="twitter" target="_blank" rel="noreferrer">Twitter</a></li>
             <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
         </ul>
     </div>
