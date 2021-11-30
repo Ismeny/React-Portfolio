@@ -24,12 +24,12 @@ export default function Portfolio() {
                 <h4>COMING SOON</h4>
                 <p>MERN Stack</p>
                 <br></br>
-            <a href='#'  target="_blank"rel="noreferrer" >Click to view</a>
+            <a href='#'  target="_blank" rel="noreferrer" >Click to view</a>
             </div>
         </div>
     </div>
-    <footer>
-      <h5 class='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
+    <footer className='footer'>
+      <h5 className='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
     </footer>
   </>
   );

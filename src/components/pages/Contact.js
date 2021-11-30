@@ -19,8 +19,8 @@ export default function Contact() {
     </div>
   
     </div>
-    <footer>
-    <h5 class='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
+    <footer className='footer'>
+    <h5 className='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
   </footer>
   </>
   );
