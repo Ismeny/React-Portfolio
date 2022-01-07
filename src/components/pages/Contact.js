@@ -5,10 +5,16 @@ export default function Contact() {
   return (
     <>
     <div className='contact'>
-      <h1>Contact Page</h1>
-    <p className='contact-font'>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-    </p>
+      <h1>Contact Me</h1>
+      <form className='contact-font'>
+        <label for ='full-name'> Name:</label>
+        <input type ='text' id = 'full-name' name= 'full-name'></input>
+        <label for ='email'> Email:</label>
+        <input type ='text' id = 'email' name= 'email'></input>
+        <label for ='message'> Message:</label>
+        <input className='message' type ='text' id = 'message' name= 'message'></input>
+        <input type = 'submit' value= 'Submit'></input>
+      </form>
     <div>
     <ul className='flex-container'>
             <li><a href='https://www.linkedin.com/in/ismeny-castro-b8b32821b/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
