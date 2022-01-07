@@ -12,7 +12,7 @@ export default function Contact() {
         <label for ='email'> Email:</label>
         <input type ='text' id = 'email' name= 'email'></input>
         <label for ='message'> Message:</label>
-        <input className='message' type ='text' id = 'message' name= 'message'></input>
+        <textarea className='message' type ='text' id = 'message' name= 'message'></textarea>
         <input type = 'submit' value= 'Submit'></input>
       </form>
     <div>
