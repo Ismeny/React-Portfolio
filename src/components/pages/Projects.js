@@ -1,12 +1,12 @@
 import React from 'react';
-import './Portfolio.css'
+import './Projects.css'
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <>
 
-    <div className='portfolio'>
-      <h1>Portfolio</h1>
+    <div className='projects'>
+      <h1>Projects</h1>
       <div className='flex-container'>
             <div className="card">  
             <h4>Crypto Cosmos</h4>

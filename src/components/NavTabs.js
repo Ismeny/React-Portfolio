@@ -32,12 +32,12 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
         <a
-          href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Projects
         </a>
         <a
           href="#contact"
