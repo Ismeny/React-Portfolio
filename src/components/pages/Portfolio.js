@@ -21,10 +21,10 @@ export default function Portfolio() {
             <a href='https://project2-group8.herokuapp.com/login' className="script-doctors" target="_blank" rel="noreferrer">Click to view</a>
             </div>
             <div className="card">
-                <h4>COMING SOON</h4>
+                <h4>Planthub</h4>
                 <p>MERN Stack</p>
                 <br></br>
-            <a href='#'  target="_blank" rel="noreferrer" >Click to view</a>
+            <a href='https://planth.herokuapp.com/' className='planthub'  target="_blank" rel="noreferrer" >Click to view</a>
             </div>
         </div>
     </div>
