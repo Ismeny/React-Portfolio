@@ -12,7 +12,7 @@ export default function Projects() {
             <h4>Crypto Cosmos</h4>
             <p>HTML, CSS, JavaScript</p>
             <br></br>
-            <a href='https://cole-cochran.github.io/crypto-cosmos/' className="crypto-cosmos" target="_blank" rel="noreferrer">Click to view</a>
+            <a href='https://cole-cochran.github.io/Crypto-Cosmos/' className="crypto-cosmos" target="_blank" rel="noreferrer">Click to view</a>
             </div>
             <div className="card">
                 <h4>Script Doctors</h4>
