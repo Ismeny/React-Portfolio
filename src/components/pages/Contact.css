@@ -72,3 +72,7 @@ li {
 .message {
 height: 150px;
 }
+
+.flex-container li a {
+  color: #DDCDC6;
+}
