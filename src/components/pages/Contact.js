@@ -23,7 +23,9 @@ export default function Contact() {
             <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
         </ul>
     </div>
-  
+        <a href='https://www.linkedin.com/in/ismeny-castro-b8b32821b/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin footer-icons"></i></a>
+          <a href='https://github.com/Ismeny' target='_blank' rel="noreferrer"><i className="fab fa-github footer-icons"></i></a>
+          <a href='mailto:menysag2@gmail.com' rel="noreferrer"><i className="fas fa-envelope footer-icons"></i></a> 
     </div>
     <footer className='footer'>
     <h5 className='center-text'> Copyright &copy; 2021 Ismeny Saguilan</h5>
