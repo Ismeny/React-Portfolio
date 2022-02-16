@@ -17,13 +17,13 @@ export default function Contact() {
       </form>
     <div>
     <ul className='flex-container'>
-            <li><a href='https://www.linkedin.com/in/ismeny-castro-b8b32821b/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href='https://www.linkedin.com/in/ismenycastro/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
             <li><a href='https://github.com/Ismeny' className="github" target="_blank" rel="noreferrer">Github</a></li>
             <li><a href='https://twitter.com/IsmenyCastro' className="twitter" target="_blank" rel="noreferrer">Twitter</a></li>
             <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
         </ul>
     </div>
-        <a href='https://www.linkedin.com/in/ismeny-castro-b8b32821b/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin footer-icons"></i></a>
+        <a href='https://www.linkedin.com/in/ismenycastro/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin footer-icons"></i></a>
           <a href='https://github.com/Ismeny' target='_blank' rel="noreferrer"><i className="fab fa-github footer-icons"></i></a>
           <a href='mailto:menysag2@gmail.com' rel="noreferrer"><i className="fas fa-envelope footer-icons"></i></a> 
     </div>
