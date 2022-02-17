@@ -20,7 +20,7 @@ export default function Contact() {
             <li><a href='https://www.linkedin.com/in/ismenycastro/' className="linkedin" target="_blank" rel="noreferrer">LinkedIn</a></li>
             <li><a href='https://github.com/Ismeny' className="github" target="_blank" rel="noreferrer">Github</a></li>
             <li><a href='https://twitter.com/IsmenyCastro' className="twitter" target="_blank" rel="noreferrer">Twitter</a></li>
-            <li><a href="mailto:menysag2@gmail.com">Email Me</a></li>
+            <li><a href="mailto:ismenycastro@gmail.com">ismenycastro@gmail.com</a></li>
         </ul>
     </div>
         <a href='https://www.linkedin.com/in/ismenycastro/' target='_blank' rel='noreferrer'><i className="fab fa-linkedin footer-icons"></i></a>
