@@ -20,12 +20,13 @@
     padding: 20px 40px 40px;
     max-width: 400px;
     max-height: 400px;
-    text-align: left;
+    text-align: left; 
     background: #DED7F5;
     border-bottom: 10px solid #781299;
     border-radius: 6px;
     transition: all .5s;
     top: 100px;
+    
 }
 
 .card:hover {
@@ -42,3 +43,4 @@
 .flex-container a {
     color: black;
 }
+
