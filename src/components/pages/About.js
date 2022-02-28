@@ -1,9 +1,28 @@
 import React from 'react';
 import './About.css';
 
+// function About () {
+//   return (
+//       <div className='wholeContent'>
+//           <h1 className="sectionTitle">About Me</h1>
+//           <section className="aboutContent">
+//               <div className='aboutCard'>
+//               <p>
+//               Hello, my name is Ismeny Castro. <br></br>
+//          <br></br>
+//           Full Stack Web Developer specializing in the MERN stack. Aiming to create pixel-perfect user experiences by utilizing newly developed skills in HTML5, CSS3, JavaScript, React.js, MongoDB, Node.js, and responsive web design. Recently earned a professional certificate in Full-Stack Web Development from the University of Texas at Austin. I enjoy tackling programming problems from a variety of perspectives and cooperating with others. I'm looking forward to putting my abilities to work as part of a fast-paced, quality-driven team to improve digital experiences and create responsive websites. <br></br>
+//           <br></br>
+//           I'm born and raised in Austin, Texas. 
+//           I love doing outdoor activites like going to the Greenbelt, paddleboarding on Town Lake, and picnics at Zilker Park with my dogs and friends. 
+//           I'm new to the tech field and excited to learn more about web development and pursue a career as a Full Stack MERN Developer.
+//               </p>
+//               </div>
+//           </section>
+//       </div>
+//   )
+// }
 
-
-
+// export default About;
 export default function About() {
   return (
     <>
